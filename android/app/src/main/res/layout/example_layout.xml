@@ -1,0 +1,48 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="6"
+    android:orientation="horizontal"
+    android:rowCount="3" >
+
+    <TextView
+        android:layout_columnSpan="6"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#FFCCCC"
+        android:text="安卓小部件"
+        android:textSize="18sp" />
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="标题" />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="状态" />
+    <Button
+    android:layout_columnSpan="2"
+    android:layout_gravity="fill"
+    android:text="测试" />
+ <Button
+        android:id="@+id/widget_title"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        tools:text="Title" />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="启动"
+        android:id="@+id/widget_message"  
+        tools:text="Message" />
+    <Button
+    android:layout_columnSpan="2"
+    android:layout_gravity="fill"
+    android:text="是" />
+ 
+</GridLayout> 
